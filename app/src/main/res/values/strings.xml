@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">农商通</string>
+    <string name="action_settings">Settings</string>
+
+    <!--By WuYi register login-->
+    <string name="login_num_hint">请输入手机号</string>
+    <string name="login_password_hint">密码（6-20位字符）</string>
+    <string name="Login_error_1">手机号长度必须为11位</string>
+    <string name="login_error_2">密码长度应在6-20位字符</string>
+    <string name="title_register">注册</string>
+    <string name="register_num">手机号</string>
+    <string name="register_pass">密码</string>
+    <string name="register_pass_re">确认密码</string>
+    <string name="login_error_3">两次输入的密码不一致</string>
+    <string name="success_register">注册成功</string>
+    <string name="register_email">电子邮箱</string>
+    <string name="title_forgot">重置密码</string>
+    <string name="main_tab_user">会员中心</string>
+    <string name="login_wel">欢迎加入</string>
+</resources>

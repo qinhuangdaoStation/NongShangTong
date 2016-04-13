@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="jmessage.example.com.nongshangtong">
+
+    <application
+        android:name=".other.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".other.WelcomeActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".homepage.MainActivity"/>
+        <activity android:name=".search.SearchActivity"/>
+        <activity android:name=".supplyObuyInfo.SupplyOBuyInfoActivity"/>
+        <activity android:name=".more.MoreActivity"/>
+        <activity android:name=".agriculturalTradeMall.AgriTradeMallActivity"/>
+        <activity android:name=".aboutUs.AboutUs"/>
+        <activity android:name=".WeiZ.registerAlogin.LoginActivity"/>
+        <activity android:name=".WeiZ.registerAlogin.ForgotActivity"/>
+        <activity android:name=".WeiZ.registerAlogin.RegisterActivity"/>
+
+    </application>
+
+    <!--屏幕适配-->
+    <supports-screens
+        android:smallScreens="true"
+        android:normalScreens="true"
+        android:largeScreens="true"
+        android:resizeable="true"
+        android:anyDensity="true" />
+
+</manifest>

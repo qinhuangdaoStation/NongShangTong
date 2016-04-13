@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/image_produceIcon_mall"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@mipmap/ic_launcher"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:padding="5dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/txt_produce_mall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="农家散养土鸡蛋卢鸡蛋纯天然无公害
+新鲜鸡蛋30盒"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text=" ¥ "/>
+            <TextView
+                android:id="@+id/txt_price_mall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="79"/>
+            <TextView
+                android:id="@+id/txt_hadBuyNum_mall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:text="18"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="人已购买"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

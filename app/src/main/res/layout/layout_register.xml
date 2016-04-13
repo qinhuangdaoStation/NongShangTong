@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/layout_register_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#000">
+
+        <ImageView
+            android:id="@+id/iv_register_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@mipmap/back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/title_register"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/layout_register_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <EditText
+        android:numeric="integer"
+        android:id="@+id/register_num"
+        style="@style/register_editText"
+        android:hint="@string/register_num"
+        android:drawableLeft="@mipmap/user_num"/>
+    <EditText
+        android:id="@+id/register_email"
+        style="@style/register_editText"
+        android:hint="@string/register_email"
+        android:drawableLeft="@mipmap/user_email"/>
+    <EditText
+        android:drawableLeft="@mipmap/user_password"
+        android:id="@+id/register_password"
+        style="@style/register_editText"
+        android:inputType="textPassword"
+        android:hint="@string/register_pass"/>
+    <EditText
+        android:drawableLeft="@mipmap/user_password"
+        android:id="@+id/register_password_re"
+        style="@style/register_editText"
+        android:inputType="textPassword"
+        android:hint="@string/register_pass_re"/>
+        <Button
+            android:id="@+id/register_btn_register"
+            android:layout_marginTop="30dp"
+            android:background="#359f15"
+            android:text="注册"
+            style="@style/login_button" />
+    </LinearLayout>
+
+</RelativeLayout>

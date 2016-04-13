@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/layout_register_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#000">
+
+        <ImageView
+            android:id="@+id/iv_forgot_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@mipmap/back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/title_forgot"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/layout_register_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/fogot_email"
+            style="@style/register_editText"
+            android:hint="@string/register_email"
+            android:drawableLeft="@mipmap/user_email"/>
+
+        <Button
+            android:id="@+id/forgot_btn"
+            android:layout_marginTop="30dp"
+            android:background="#359f15"
+            android:text="发送验证邮件"
+            style="@style/login_button" />
+        <TextView
+            android:id="@+id/forgot_tv_tips"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#f52d2d"
+            android:textSize="17sp"
+            android:layout_margin="@dimen/normal_margin"/>
+    </LinearLayout>
+
+</RelativeLayout>

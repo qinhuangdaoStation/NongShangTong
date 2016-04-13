@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="#02a434"
+    android:layout_gravity="bottom">
+
+    <RadioGroup
+        android:id="@+id/radiogroup_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginLeft="5dp">
+        <RadioButton
+            android:id="@+id/radbtn_bottom_homepage"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:button="@null"
+            android:gravity="center"
+            android:drawableTop="@android:drawable/ic_dialog_email"
+            android:text="首页"/>
+        <RadioButton
+            android:id="@+id/radbtn_bottom_farmProduce"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:button="@null"
+            android:gravity="center"
+            android:drawableTop="@android:drawable/ic_dialog_email"
+            android:text="农产品"/>
+        <RadioButton
+            android:id="@+id/radbtn_bottom_industryInfo"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:button="@null"
+            android:gravity="center"
+            android:drawableTop="@android:drawable/ic_dialog_email"
+            android:text="行业资讯"/>
+        <RadioButton
+            android:id="@+id/radbtn_bottom_more"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:button="@null"
+            android:gravity="center"
+            android:drawableTop="@android:drawable/ic_dialog_email"
+            android:text="更多"/>
+
+    </RadioGroup>
+</LinearLayout>
